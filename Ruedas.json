@@ -1,0 +1,76 @@
+{ 
+    "Ruedas":[ 
+        {
+            "id":"1",
+            "nombre":"Rueda F1 amarilla",
+            "tipo":"Rueda sin llanta",
+            "color":"Amarilla"
+        },
+        {
+            "id":"2",
+            "nombre":"Rueda F1 blanca con diseño y llanta",
+            "tipo":"Rueda con llanta y diseño",
+            "color":"Blanca"
+        },
+        {
+            "id":"3",
+            "nombre":"Rueda F1 amarilla neon",
+            "tipo":"Rueda sin llanta neon",
+            "color":"Amarilla"
+        },
+        {
+            "id":"4",
+            "nombre":"Rueda F1 roja con llanta",
+            "tipo":"Rueda con llanta",
+            "color":"Roja"
+        },
+        {
+            "id":"5",
+            "nombre":"Rueda F1 azul",
+            "tipo":"Rueda sin llanta",
+            "color":"Azul"
+        },
+        {
+            "id":"6",
+            "nombre":"Rueda F1 verde",
+            "tipo":"Rueda sin llanta",
+            "color":"Verde"
+        },
+        {
+            "id":"7",
+            "nombre":"Rueda F1 blanca",
+            "tipo":"Rueda sin llanta",
+            "color":"Blanca"
+        },
+        {
+            "id":"8",
+            "nombre":"Rueda F1 roja",
+            "tipo":"Rueda sin llanta",
+            "color":"Roja"
+        },
+        {
+            "id":"9",
+            "nombre":"Rueda F1 morada con llanta",
+            "tipo":"Rueda con llanta",
+            "color":"Morada"
+        },
+        {
+            "id":"10",
+            "nombre":"Rueda F1 naranja con llanta",
+            "tipo":"Rueda con llanta",
+            "color":"Naranja"
+        },
+        {
+            "id":"11",
+            "nombre":"Rueda F1 azul con llanta",
+            "tipo":"Rueda con llanta",
+            "color":"Azul"
+        },
+        {
+            "id":"12",
+            "nombre":"Rueda F1 amarilla con llanta",
+            "tipo":"Rueda con llanta",
+            "color":"Amarilla"
+        }
+    ]
+}

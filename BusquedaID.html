@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/no.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/Logo f1.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Busqueda De Ruedas</title>
+</head>
+<body>
+
+<!-- el menú -->
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-sm bg-light menu">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones" aria-controls="opciones" aria-expanded="false" aria-label="Toggle navigation" style="margin-left: 15px;">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        </button>
+        <a href="#" class="navbar-brand">
+            <img src="img/Logo f1.png" width="80px" height="70px" style="margin-left: 15px;">
+        </a>
+        <div class="collapse navbar-collapse" id="opciones">
+            <ul class="navbar-nav" style="margin-left: 15px;">
+                <li class="nav-item">
+                    <a class="nav-link" href="inicio.html">Página principal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Nosotros.html">Acerca de nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactanos.html">Contactanos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Subscripcion.html">Subsribirse</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="BusquedaID.html">Busqueda de Ruedas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Radios.html">Recomendacion de Radios</a>
+                </li>
+            </ul>
+        </div>  
+    </nav>
+</div>
+<br>
+<br>
+
+
+<div class="container">
+    <br>
+    <h2 class="fondo1">Todos las Ruedas disponibles</h2>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-md-4">
+            <input type="button" value="Mostrar Todas las Ruedas" onclick="mostrarRuedas()"
+            class="btn btn-success" style="margin-right: 30px;">
+        </div>
+
+        <div class="col-md-4">
+            <select name="tipo" id="tipo" class="form-select" onclick="buscarTipo()">
+                <option value="" hidden="">Seleccione tipo de Rueda</option>
+                <option value="Rueda sin llanta">Ruedas sin llanta</option>
+                <option value="Rueda con llanta">Ruedas con llanta</option>
+                <option value="Rueda con llanta y diseño">Ruedas con llanta y con diseño</option>
+                <option value="Rueda sin llanta neon">Ruedas sin llanta y con neon</option>
+            </select>
+        </div>
+    </div>
+    <br>
+    <br>
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id de la Rueda</th>
+                <th>Nombre del Producto</th>
+                <th>Tipo de Rueda</th>
+                <th>Color de la Rueda</th>
+            </tr>
+        </thead>
+        <tbody id="Ruedas">
+
+        </tbody>
+    </table>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- footer -->
+<footer class="footer bg-dark text-light text-center py-3 fixed-bottom">
+    <div class="container d-flex justify-content-center align-items-center">
+        <a class="nav-link" href="inicio.html">
+            <img src="img/Logo f1.png" width="30px" height="30px" style="margin-right: 15px;">
+        </a>
+        <span> &copy; copyright Derechos reservados.</span>
+        <a class="nav-link" href="https://www.instagram.com/poles_f1/">
+            <img src="img/logo ig.webp" width="30px" height="30px" style="margin-left: 15px;">
+        </a>
+    </div>
+</footer>
+
+<script src="js/funciones.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

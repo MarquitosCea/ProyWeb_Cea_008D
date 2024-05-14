@@ -1,0 +1,50 @@
+body{
+
+    background-image: url("../img/fondo\ karting.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu{
+    background-color: white;
+    border: 7px gray solid;
+
+}
+
+#video{
+    margin:auto;
+    display: block;
+}
+
+footer{
+    position: fixed;
+}
+
+.video-responsive {
+    overflow:hidden;
+    padding-bottom:400px;
+    position:relative;
+    height:0;
+}
+
+.column-item {
+    margin-bottom: 30px;
+}
+
+.fondo1{
+    background: linear-gradient(90deg, rgba(0,0,0,0.5410539215686274) 100%, rgba(0,212,255,0.014443277310924318) 100%);
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+}
+
+.fondo2{
+    background: linear-gradient(90deg, rgba(0,0,0,0.5410539215686274) 100%, rgba(0,212,255,0.014443277310924318) 100%);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+}
